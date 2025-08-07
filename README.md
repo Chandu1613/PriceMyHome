@@ -1,34 +1,22 @@
-# 🏠 Energy Efficiency Regression
+# 🏡 House Price Prediction with Linear Regression
 
-This project uses machine learning to predict **Heating Load** and **Cooling Load** for buildings based on structural and design parameters. The data is derived from building simulations conducted in **Autodesk Ecotect**.
+This project is a complete implementation of a House Price Prediction system using **Linear Regression**, with full data preprocessing, outlier handling, scaling, encoding, model training, evaluation, saving, and deployment for user input-based prediction.
+
+
+---
+
+## 🧠 Objective
+
+Predict the **price of a house** based on features like:
+
+- Numerical: `area`, `bedrooms`, `bathrooms`, `stories`, `parking`
+- Categorical: `mainroad`, `guestroom`, `basement`, `hotwaterheating`, `airconditioning`, `prefarea`, `furnishingstatus`
 
 ---
 
-## 📊 Dataset Overview
+## 📦 Requirements
 
-- **Samples**: 768 simulated building shapes  
-- **Features**: 8 design and architectural parameters  
-- **Targets**:  
-  - `Y1`: Heating Load (kWh/m²)  
-  - `Y2`: Cooling Load (kWh/m²)
+Install the required Python libraries:
 
-Simulations vary based on glazing area, glazing distribution, orientation, compactness, and more.
-
-### 🔧 Features
-
-| Feature | Description                   |
-|---------|-------------------------------|
-| X1      | Relative Compactness          |
-| X2      | Surface Area (m²)             |
-| X3      | Wall Area (m²)                |
-| X4      | Roof Area (m²)                |
-| X5      | Overall Height (m)            |
-| X6      | Orientation (categorical)     |
-| X7      | Glazing Area (ratio)          |
-| X8      | Glazing Area Distribution     |
-
-- All features are numeric (some encoded categories).
-- No missing values.
-- Can optionally be used for classification by rounding targets.
-
----
+```bash
+pip install -r requirements.txt
