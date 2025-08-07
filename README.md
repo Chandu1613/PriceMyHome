@@ -18,9 +18,12 @@ Predict the **price of a house** based on features like:
 
 Install the required Python libraries:
 
-```bash
+```
 pip install -r requirements.txt
----
+
+
+-----
+
 ## ⚙️ Features & Workflow
 
 ### ✅ Data Preprocessing
