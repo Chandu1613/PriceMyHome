@@ -41,8 +41,10 @@ pip install -r requirements.txt
 - Target variable (`price`) log-transformed for better model performance
 
 ### ✅ Evaluation Metrics
-- **MAE**, **MSE**, **R² Score**
-- Actual vs Predicted **visualization**
+- **MAE**: `743,232.85`
+- **MSE**: `1,235,846,885,936.54`
+- **R² Score**: `0.77`
+
 
 ### ✅ Model Saving
 Saved using `joblib`:
